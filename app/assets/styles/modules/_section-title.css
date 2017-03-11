@@ -10,11 +10,17 @@
   strong {
     font-weight: 500;
   }
+<<<<<<< HEAD
 
   &--blue {
     color: $mainBlue;
   }
 
+=======
+  &--blue {
+    color: $mainBlue;
+  }
+>>>>>>> testimonials
   &__icon {
     display: block;
     margin-left: auto;

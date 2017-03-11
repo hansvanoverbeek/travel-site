@@ -1,6 +1,7 @@
 .row {
 
   @mixin clearfix;
+<<<<<<< HEAD
 
   &--t-padding {
     padding-top: 80px;
@@ -10,6 +11,17 @@
     margin-right: -65px;
   }
 
+=======
+  &--t-padding {
+    padding-top: 80px;
+  }
+  &--gutters {
+    margin-right: -65px;
+  }
+  &--gutters-small {
+    margin-right: -45px;
+  }
+>>>>>>> testimonials
   &--gutters-large {
     margin-right: -100px;
   }
@@ -25,15 +37,20 @@
   &--gutters-large > div {
     padding-right: 100px;
   }
+<<<<<<< HEAD
 
   &--gutters-small > div {
     padding-right: 45px;
   }
 
+=======
+  &--gutters-small>div {
+    padding-right: 45px;
+  }
+>>>>>>> testimonials
   &__b-margin-until-medium {
     margin-bottom: 1rem;
   }
-
   @mixin atMedium {
 
     &__b-margin-until-medium {
@@ -48,12 +65,18 @@
     &__medium-4--larger {
       width: 37%;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> testimonials
     &__medium-6 {
       float: left;
       width: 50%;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> testimonials
     &__medium-8 {
       float: left;
       width: 66.66%;
@@ -64,6 +87,7 @@
     }
 
   }
+<<<<<<< HEAD
 
   @mixin atLarge {
 
@@ -71,24 +95,40 @@
       margin-bottom: 0;
     }
 
+=======
+  @mixin atLarge {
+    &__b-margin-until-large {
+      margin-bottom: 0;
+    }
+>>>>>>> testimonials
     &__large-4 {
       float: left;
       width: 33.33%;
     }
+<<<<<<< HEAD
 
     &__large-4--larger {
       width: 37%;
     }
 
+=======
+    &__large-4-larger {
+      width: 37%;
+    }
+>>>>>>> testimonials
     &__large-6 {
       float: left;
       width: 50%;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> testimonials
     &__large-8 {
       float: left;
       width: 66.66%;
     }
+<<<<<<< HEAD
 
     &__large-8--smaller {
       width: 63%;
@@ -97,10 +137,18 @@
   }
   
   /* Begin Equal Height Rules */
+=======
+    &__large-8-smaller {
+      width: 63%;
+    }
+  }
+  /*Begin equal height rules*/
+>>>>>>> testimonials
   &--equal-height-at-medium {
     @mixin atMedium {
       display: flex;
     }
+<<<<<<< HEAD
 
     & > div {
       float: none;
@@ -109,10 +157,18 @@
 
   }
 
+=======
+    &>div {
+      float: none;
+      display: flex;
+    }
+  }
+>>>>>>> testimonials
   &--equal-height-at-large {
     @mixin atLarge {
       display: flex;
     }
+<<<<<<< HEAD
 
     & > div {
       float: none;
@@ -122,3 +178,11 @@
   }
 
 }
+=======
+    &>div {
+      float: none;
+      display: flex;
+    }
+  }
+}
+>>>>>>> testimonials
