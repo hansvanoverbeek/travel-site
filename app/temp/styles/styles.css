@@ -481,6 +481,7 @@ a {
 .large-hero {
   border-bottom: 10px solid #2f5572;
   position: relative;
+
 }
 
 .large-hero__image {
@@ -500,8 +501,8 @@ a {
 .large-hero__title {
   font-weight: 300;
   color: #2f5572;
-  font-size: 2.4rem;
   margin: 0;
+  font-size: 2.4rem;
 }
 
 @media (min-width: 530px) {
@@ -526,7 +527,7 @@ a {
 }
 
 .large-hero__description {
-  color: white;
+  color: #FFF;
   font-size: 1.1rem;
   font-weight: 100;
   text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
@@ -544,10 +545,11 @@ a {
 
 .btn {
   background-color: #2f5572;
-  color: white;
+  color: #FFF;
   text-decoration: none;
   padding: .75rem 1.2rem;
   display: inline-block;
+
 }
 
 .btn--orange {
@@ -597,7 +599,7 @@ a {
   padding-right: 0;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1010px) {
 
   .wrapper--no-padding-until-large {
     padding-left: 18px;
@@ -648,7 +650,7 @@ a {
   padding-bottom: 0;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1010px) {
 
   .page-section--no-b-padding-until-large {
     padding-bottom: 4.5rem;
@@ -664,7 +666,7 @@ a {
   background-color: #e0e6ef;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1010px) {
 
   .page-section--testimonials {
     background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
@@ -798,7 +800,7 @@ a {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1010px) {
 
   .row__b-margin-until-large {
     margin-bottom: 0;
@@ -846,7 +848,7 @@ a {
   display: flex;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1010px) {
 
   .row--equal-height-at-large {
     display: -webkit-box;
@@ -862,7 +864,7 @@ a {
   display: flex;
 }
 
-.generic-content-container p{
+.generic-content-container p {
   font-weight: 300;
   line-height: 1.65;
   margin: 0 0 1.8rem 0;
@@ -883,7 +885,7 @@ a {
   font-size: 2.55rem;
   font-weight: 300;
   text-align: center;
-  color: white;
+
 }
 
 @media (min-width: 530px) {
@@ -897,6 +899,10 @@ a {
   font-weight: 500;
 }
 
+.section-title--blue {
+  color: #2f5572;
+}
+
 .section-title__icon {
   display: block;
   margin-left: auto;
@@ -907,6 +913,8 @@ a {
 @media (min-width: 530px) {
 
   .section-title__icon {
+    position: relative;
+    top: 8px;
     margin-right: .5rem;
     margin-left: 0;
     margin-bottom: 0;
@@ -950,9 +958,9 @@ a {
 @media (min-width: 530px) {
 
   .feature-item__title {
+    text-align: left;
     margin-top: 1em;
     font-size: 1.875rem;
-    text-align: left;
   }
 }
 
@@ -962,7 +970,7 @@ a {
   margin-bottom: 98px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1010px) {
 
   .testimonial {
     margin-bottom: 0;
